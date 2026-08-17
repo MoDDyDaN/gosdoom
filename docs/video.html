@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Видео | ГосДума Маркет</title>
+  <link rel="stylesheet" href="static/css/style.css?v=9">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a href="index.html" class="logo">
+        <span class="logo__mark">G</span>
+        <span class="logo__text">gosdoom</span>
+      </a>
+      <nav class="topnav" aria-label="Разделы сайта">
+        <a href="index.html" class="topnav__link">Кандидаты</a>
+        <a href="parties.html" class="topnav__link">Партии</a>
+        <a href="parliament.html" class="topnav__link">Парламент</a>
+        <a href="process.html" class="topnav__link">Выборы</a>
+        <a href="video.html" class="topnav__link topnav__link--active">Видео</a>
+        <a href="duels.html" class="topnav__link">Дуэли</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="page-head">
+      <h1 class="page-head__title">Видео</h1>
+      <p class="page-head__sub">Материалы о выборах и кандидатах.</p>
+    </section>
+
+    <section class="video-box">
+      <div class="video-player">
+        <video id="player" controls preload="metadata">
+          <p>Ваш браузер не поддерживает встроенное видео.</p>
+        </video>
+        <div class="video-player__caption" id="player-caption"></div>
+        <div class="video-player__speed">
+          <button type="button" class="speed-btn" data-speed="1" aria-label="Скорость воспроизведения">1x</button>
+          <button type="button" class="speed-btn" id="vol-btn" aria-label="Усиление громкости" title="Усиление громкости: 100 / 150 / 200%">100%</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="video-catalog">
+      <h2 class="video-catalog__title" id="catalog-title">Каталог видео</h2>
+      <div class="video-grid" id="video-grid">
+        <div class="video-empty">Видео ещё не загружены. Добавьте файл в папку <code>static/videos/</code>.</div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      Кандидаты в депутаты Государственной Думы IX созыва на выборах 18–20 сентября 2026 г. Федеральные списки партий.
+      Полные списки: Единая Россия (390), КПРФ (332), Яблоко (263). Для ЛДПР, Справедливой России и Новых людей
+      доступны только общефедеральные части (полные списки не публикуются вне сайта ЦИК). Данные: сайты партий, сентябрь 2026.
+    </div>
+  </footer>
+
+  <script src="static/js/video.js?v=4"></script>
+</body>
+</html>

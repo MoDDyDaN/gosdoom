@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дуэли кандидатов — кто против кого | ГосДума Маркет</title>
+  <link rel="stylesheet" href="static/css/style.css?v=9"></head>
+<body>
+
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a href="index.html" class="logo">
+        <span class="logo__mark">G</span>
+        <span class="logo__text">gosdoom</span>
+      </a>
+      <nav class="topnav" aria-label="Разделы сайта">
+        <a href="index.html" class="topnav__link">Кандидаты</a>
+        <a href="parties.html" class="topnav__link">Партии</a>
+        <a href="parliament.html" class="topnav__link">Парламент</a>
+        <a href="process.html" class="topnav__link">Выборы</a>
+        <a href="video.html" class="topnav__link">Видео</a>
+        <a href="duels.html" class="topnav__link topnav__link--active">Дуэли</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-head">
+      <h1 class="page-head__title">Дуэли: кто против кого</h1>
+      <p class="page-head__sub">Конкурирующие кандидаты из разных партий в одном регионе на выборах 18–20 сентября 2026 г.</p>
+    </section>
+
+    <section class="filters">
+      <div class="chips" id="duel-region-chips"></div>
+    </section>
+
+    <form class="search" id="duel-search-form" autocomplete="off" style="margin:0 0 18px">
+      <input id="duel-search-input" type="text" placeholder="Искать кандидата в дуэлях по имени или фамилии…" aria-label="Поиск по кандидату">
+      <button type="submit" class="search__btn" aria-label="Найти">Поиск</button>
+    </form>
+
+    <section class="toolbar">
+      <span class="toolbar__count" id="duel-result-count">…</span>
+    </section>
+
+    <section class="duel-list" id="duel-list"></section>
+
+    <div class="empty hidden" id="duel-empty">
+      В этом регионе нет данных о соперничестве кандидатов из разных партий.
+    </div>
+  </main>
+
+  <div class="modal-backdrop hidden" id="modal-backdrop">
+    <div class="modal" id="modal" role="dialog" aria-modal="true"></div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      Кандидаты в депутаты Государственной Думы IX созыва на выборах 18–20 сентября 2026 г.
+      Показаны кандидаты разных партий, выдвинутые в одном регионе (региональная группа федерального списка или одномандатный округ).
+      Данные: сайты партий и ЦИК, сентябрь 2026.
+    </div>
+  </footer>
+
+  <script src="static/js/duels.js?v=3"></script>
+</body>
+</html>

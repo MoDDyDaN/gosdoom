@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Партии — лозунги и стратегия | ГосДума Маркет</title>
+  <link rel="stylesheet" href="static/css/style.css?v=9">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a href="index.html" class="logo">
+        <span class="logo__mark">G</span>
+        <span class="logo__text">gosdoom</span>
+      </a>
+      <nav class="topnav" aria-label="Разделы сайта">
+        <a href="index.html" class="topnav__link">Кандидаты</a>
+        <a href="parties.html" class="topnav__link topnav__link--active">Партии</a>
+        <a href="parliament.html" class="topnav__link">Парламент</a>
+        <a href="process.html" class="topnav__link">Выборы</a>
+        <a href="video.html" class="topnav__link">Видео</a>
+        <a href="duels.html" class="topnav__link">Дуэли</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-head">
+      <h1 class="page-head__title">Партии: лозунги и стратегия на 2026–2031</h1>
+      <p class="page-head__sub">Программные позиции партий, участвующих в выборах в Госдуму IX созыва.</p>
+    </section>
+
+    <section class="info-grid" id="parties-list"></section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      Кандидаты в депутаты Государственной Думы IX созыва на выборах 18–20 сентября 2026 г. Федеральные списки партий.
+      Полные списки: Единая Россия (390), КПРФ (332), Яблоко (263). Для ЛДПР, Справедливой России и Новых людей
+      доступны только общефедеральные части (полные списки не публикуются вне сайта ЦИК). Данные: сайты партий, сентябрь 2026.
+    </div>
+  </footer>
+
+  <script src="static/js/party-info.js?v=4"></script>
+  <script>
+    PartyInfo.renderParties(document.getElementById("parties-list"));
+  </script>
+</body>
+</html>
