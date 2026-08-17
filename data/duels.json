@@ -1,0 +1,361 @@
+{
+ "duels": [
+  {
+   "region": "Иркутская область",
+   "a": {
+    "id": "er-0025",
+    "name": "Кобзев Игорь Иванович",
+    "party": "Единая Россия",
+    "color": "#0091D3",
+    "logo": "/static/images/logos/er.svg"
+   },
+   "b": {
+    "id": "yabl-0192",
+    "name": "Харитотенко Павел Владимирович",
+    "party": "Яблоко",
+    "color": "#2E7D32",
+    "logo": "/static/images/logos/yabloko.svg"
+   }
+  },
+  {
+   "region": "Челябинская область",
+   "a": {
+    "id": "er-0086",
+    "name": "Текслер Алексей Леонидович",
+    "party": "Единая Россия",
+    "color": "#0091D3",
+    "logo": "/static/images/logos/er.svg"
+   },
+   "b": {
+    "id": "yabl-0083",
+    "name": "Талевлин Андрей Александрович",
+    "party": "Яблоко",
+    "color": "#2E7D32",
+    "logo": "/static/images/logos/yabloko.svg"
+   }
+  },
+  {
+   "region": "Пермский край",
+   "a": {
+    "id": "er-0091",
+    "name": "Махонин Дмитрий Николаевич",
+    "party": "Единая Россия",
+    "color": "#0091D3",
+    "logo": "/static/images/logos/er.svg"
+   },
+   "b": {
+    "id": "yabl-0130",
+    "name": "Колоколова Ольга Аркадьевна",
+    "party": "Яблоко",
+    "color": "#2E7D32",
+    "logo": "/static/images/logos/yabloko.svg"
+   }
+  },
+  {
+   "region": "Республика Башкортостан",
+   "a": {
+    "id": "er-0097",
+    "name": "Хабиров Радий Фаритович",
+    "party": "Единая Россия",
+    "color": "#0091D3",
+    "logo": "/static/images/logos/er.svg"
+   },
+   "b": {
+    "id": "kprf-0030",
+    "name": "Ющенко Александр Андреевич",
+    "party": "КПРФ",
+    "color": "#D40000",
+    "logo": "/static/images/logos/kprf.svg"
+   }
+  },
+  {
+   "region": "Республика Башкортостан",
+   "a": {
+    "id": "er-0097",
+    "name": "Хабиров Радий Фаритович",
+    "party": "Единая Россия",
+    "color": "#0091D3",
+    "logo": "/static/images/logos/er.svg"
+   },
+   "b": {
+    "id": "yabl-0178",
+    "name": "Акименко Алексей Александрович",
+    "party": "Яблоко",
+    "color": "#2E7D32",
+    "logo": "/static/images/logos/yabloko.svg"
+   }
+  },
+  {
+   "region": "Республика Башкортостан",
+   "a": {
+    "id": "kprf-0030",
+    "name": "Ющенко Александр Андреевич",
+    "party": "КПРФ",
+    "color": "#D40000",
+    "logo": "/static/images/logos/kprf.svg"
+   },
+   "b": {
+    "id": "yabl-0178",
+    "name": "Акименко Алексей Александрович",
+    "party": "Яблоко",
+    "color": "#2E7D32",
+    "logo": "/static/images/logos/yabloko.svg"
+   }
+  },
+  {
+   "region": "Саратовская область",
+   "a": {
+    "id": "er-0164",
+    "name": "Володин Вячеслав Викторович",
+    "party": "Единая Россия",
+    "color": "#0091D3",
+    "logo": "/static/images/logos/er.svg"
+   },
+   "b": {
+    "id": "yabl-0233",
+    "name": "Солдатов Игорь Владимирович",
+    "party": "Яблоко",
+    "color": "#2E7D32",
+    "logo": "/static/images/logos/yabloko.svg"
+   }
+  },
+  {
+   "region": "Ивановская область",
+   "a": {
+    "id": "er-0188",
+    "name": "Воскресенский Станислав Сергеевич",
+    "party": "Единая Россия",
+    "color": "#0091D3",
+    "logo": "/static/images/logos/er.svg"
+   },
+   "b": {
+    "id": "yabl-0167",
+    "name": "Поломошнов Павел Юрьевич",
+    "party": "Яблоко",
+    "color": "#2E7D32",
+    "logo": "/static/images/logos/yabloko.svg"
+   }
+  },
+  {
+   "region": "Тверская область",
+   "a": {
+    "id": "er-0192",
+    "name": "Королев Виталий Геннадьевич",
+    "party": "Единая Россия",
+    "color": "#0091D3",
+    "logo": "/static/images/logos/er.svg"
+   },
+   "b": {
+    "id": "yabl-0261",
+    "name": "Кузнецов Иван Вячеславович",
+    "party": "Яблоко",
+    "color": "#2E7D32",
+    "logo": "/static/images/logos/yabloko.svg"
+   }
+  },
+  {
+   "region": "Липецкая область",
+   "a": {
+    "id": "er-0220",
+    "name": "Артамонов Игорь Георгиевич",
+    "party": "Единая Россия",
+    "color": "#0091D3",
+    "logo": "/static/images/logos/er.svg"
+   },
+   "b": {
+    "id": "yabl-0145",
+    "name": "Наумов Александр Владимирович",
+    "party": "Яблоко",
+    "color": "#2E7D32",
+    "logo": "/static/images/logos/yabloko.svg"
+   }
+  },
+  {
+   "region": "Белгородская область",
+   "a": {
+    "id": "er-0224",
+    "name": "Шуваев Александр Михайлович",
+    "party": "Единая Россия",
+    "color": "#0091D3",
+    "logo": "/static/images/logos/er.svg"
+   },
+   "b": {
+    "id": "yabl-0165",
+    "name": "Костюков Илья Романович",
+    "party": "Яблоко",
+    "color": "#2E7D32",
+    "logo": "/static/images/logos/yabloko.svg"
+   }
+  },
+  {
+   "region": "Московская область",
+   "a": {
+    "id": "er-0251",
+    "name": "Воробьев Андрей Юрьевич",
+    "party": "Единая Россия",
+    "color": "#0091D3",
+    "logo": "/static/images/logos/er.svg"
+   },
+   "b": {
+    "id": "kprf-0237",
+    "name": "Васильев Николай Иванович",
+    "party": "КПРФ",
+    "color": "#D40000",
+    "logo": "/static/images/logos/kprf.svg"
+   }
+  },
+  {
+   "region": "Ростовская область",
+   "a": {
+    "id": "er-0290",
+    "name": "Шолохов Александр Михайлович",
+    "party": "Единая Россия",
+    "color": "#0091D3",
+    "logo": "/static/images/logos/er.svg"
+   },
+   "b": {
+    "id": "kprf-0283",
+    "name": "Бессонов Евгений Иванович",
+    "party": "КПРФ",
+    "color": "#D40000",
+    "logo": "/static/images/logos/kprf.svg"
+   }
+  },
+  {
+   "region": "Волгоградская область",
+   "a": {
+    "id": "er-0297",
+    "name": "Бочаров Андрей Иванович",
+    "party": "Единая Россия",
+    "color": "#0091D3",
+    "logo": "/static/images/logos/er.svg"
+   },
+   "b": {
+    "id": "yabl-0180",
+    "name": "Болдырева Галина Васильевна",
+    "party": "Яблоко",
+    "color": "#2E7D32",
+    "logo": "/static/images/logos/yabloko.svg"
+   }
+  },
+  {
+   "region": "Краснодарский край",
+   "a": {
+    "id": "er-0309",
+    "name": "Долуда Николай Александрович",
+    "party": "Единая Россия",
+    "color": "#0091D3",
+    "logo": "/static/images/logos/er.svg"
+   },
+   "b": {
+    "id": "kprf-0160",
+    "name": "Осадчий Николай Иванович",
+    "party": "КПРФ",
+    "color": "#D40000",
+    "logo": "/static/images/logos/kprf.svg"
+   }
+  },
+  {
+   "region": "Республика Дагестан",
+   "a": {
+    "id": "er-0350",
+    "name": "Щукин Федор Вячеславович",
+    "party": "Единая Россия",
+    "color": "#0091D3",
+    "logo": "/static/images/logos/er.svg"
+   },
+   "b": {
+    "id": "yabl-0213",
+    "name": "Эседов Альберт Абдурахманович",
+    "party": "Яблоко",
+    "color": "#2E7D32",
+    "logo": "/static/images/logos/yabloko.svg"
+   }
+  },
+  {
+   "region": "Республика Ингушетия",
+   "a": {
+    "id": "er-0357",
+    "name": "Калиматов Махмуд-Али Макшарипович",
+    "party": "Единая Россия",
+    "color": "#0091D3",
+    "logo": "/static/images/logos/er.svg"
+   },
+   "b": {
+    "id": "kprf-0062",
+    "name": "Кодзоев Хамзат Туганович",
+    "party": "КПРФ",
+    "color": "#D40000",
+    "logo": "/static/images/logos/kprf.svg"
+   }
+  },
+  {
+   "region": "Республика Ингушетия",
+   "a": {
+    "id": "er-0357",
+    "name": "Калиматов Махмуд-Али Макшарипович",
+    "party": "Единая Россия",
+    "color": "#0091D3",
+    "logo": "/static/images/logos/er.svg"
+   },
+   "b": {
+    "id": "yabl-0215",
+    "name": "Муцольгов Руслан Адамович",
+    "party": "Яблоко",
+    "color": "#2E7D32",
+    "logo": "/static/images/logos/yabloko.svg"
+   }
+  },
+  {
+   "region": "Республика Ингушетия",
+   "a": {
+    "id": "kprf-0062",
+    "name": "Кодзоев Хамзат Туганович",
+    "party": "КПРФ",
+    "color": "#D40000",
+    "logo": "/static/images/logos/kprf.svg"
+   },
+   "b": {
+    "id": "yabl-0215",
+    "name": "Муцольгов Руслан Адамович",
+    "party": "Яблоко",
+    "color": "#2E7D32",
+    "logo": "/static/images/logos/yabloko.svg"
+   }
+  },
+  {
+   "region": "Республика Адыгея",
+   "a": {
+    "id": "kprf-0016",
+    "name": "Салов Евгений Иванович",
+    "party": "КПРФ",
+    "color": "#D40000",
+    "logo": "/static/images/logos/kprf.svg"
+   },
+   "b": {
+    "id": "yabl-0210",
+    "name": "Коган-Ясный Виктор Валентинович",
+    "party": "Яблоко",
+    "color": "#2E7D32",
+    "logo": "/static/images/logos/yabloko.svg"
+   }
+  },
+  {
+   "region": "Республика Татарстан",
+   "a": {
+    "id": "kprf-0128",
+    "name": "Прокофьев Артём Вячеславович",
+    "party": "КПРФ",
+    "color": "#D40000",
+    "logo": "/static/images/logos/kprf.svg"
+   },
+   "b": {
+    "id": "yabl-0174",
+    "name": "Зинатуллин Руслан Мансурович",
+    "party": "Яблоко",
+    "color": "#2E7D32",
+    "logo": "/static/images/logos/yabloko.svg"
+   }
+  }
+ ]
+}

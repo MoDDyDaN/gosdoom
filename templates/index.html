@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ГосДума Маркет — кандидаты в депутаты Госдумы РФ (выборы 2026)</title>
+  <link rel="stylesheet" href="/static/css/style.css?v=9">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a href="/" class="logo">
+        <span class="logo__mark">G</span>
+        <span class="logo__text">gosdoom</span>
+      </a>
+      <nav class="topnav" aria-label="Разделы сайта">
+        <a href="/" class="topnav__link topnav__link--active">Кандидаты</a>
+        <a href="/parties" class="topnav__link">Партии</a>
+        <a href="/parliament" class="topnav__link">Парламент</a>
+        <a href="/process" class="topnav__link">Выборы</a>
+        <a href="/video" class="topnav__link">Видео</a>
+        <a href="/duels" class="topnav__link">Дуэли</a>
+      </nav>
+      <form class="search" id="search-form" autocomplete="off">
+        <input id="search-input" type="text" placeholder="Искать кандидата по имени или фамилии…" aria-label="Поиск">
+        <button type="submit" class="search__btn" aria-label="Найти">Поиск</button>
+      </form>
+      <div class="topbar__info">
+        <span class="topbar__stat" id="total-stat">…</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="filters">
+      <div class="chips" id="party-chips"></div>
+    </section>
+
+    <section class="toolbar">
+      <span class="toolbar__count" id="result-count">…</span>
+      <label class="toolbar__sort">
+        Сортировка
+        <select id="sort-select">
+          <option value="az">по алфавиту (А–Я)</option>
+          <option value="za">по алфавиту (Я–А)</option>
+          <option value="party">по партии</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="grid" id="cards"></section>
+
+    <div class="empty hidden" id="empty">
+      Ничего не найдено. Попробуйте изменить запрос.
+    </div>
+
+  </main>
+
+  <div class="modal-backdrop hidden" id="modal-backdrop">
+    <div class="modal" id="modal" role="dialog" aria-modal="true"></div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      Кандидаты в депутаты Государственной Думы IX созыва на выборах 18–20 сентября 2026 г. Федеральные списки партий.
+      Полные списки: Единая Россия (390), КПРФ (332), Яблоко (263). Для ЛДПР, Справедливой России и Новых людей
+      доступны только общефедеральные части (полные списки не публикуются вне сайта ЦИК). Данные: сайты партий, сентябрь 2026.
+    </div>
+  </footer>
+
+  <script src="/static/js/app.js?v=7"></script>
+</body>
+</html>
