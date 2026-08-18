@@ -1,3 +1,4 @@
 __pycache__/
 *.pyc
-static/videos/
+static/videos/fetch_income.log
+fetch_income.err
